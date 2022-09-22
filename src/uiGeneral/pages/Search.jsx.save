@@ -1,0 +1,49 @@
+AOOAOAO
+
+O
+export const Search = () => {
+    retOBurn (
+        <div><h3 className="center"> <i className="material-icons small">search</i> Search a Driver </h3></div>
+        <div className="card-panel animate__animated animate__fadeIn">
+         B   <hr/>
+            <div className="card-panel white-text center row">
+          OB      <div className="col s12 m12 l12 xl12 input-field">
+            OBOBB        <label htmlFor="input_text">
+                        Input text
+                 OBOB       <input id="input_search" type="text" data-length="50" />
+                    </label>
+                </diOBv>
+            </div>
+        </div>
+    )
+}OB
+OBO
+OBO
+B
+OB
+OB
+OBOBO
+B
+O
+OB
+OBO
+O
+O
+OB
+OB
+O
+O
+B
+OO
+O
+OB
+OBOBO
+BBB
+O
+OB
+O
+O
+OB
+O
+OB
+OO

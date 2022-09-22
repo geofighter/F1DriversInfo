@@ -1,0 +1,130 @@
+body {
+  padding: 20px;
+  background-color: #06072e;
+  /*background-color: black;*/
+  font-family: "Titillium Web", "sans-serif";
+}
+h1,h2,h3,h4,h5{
+  font-family: "Titillium Web";
+  font-weight: 700;
+}
+
+button {
+  margin-right: 10px;
+}
+.card, .card-panel, .collection-item{
+  border-radius: 30px;
+}
+.card-driver{
+  max-height: 550px;
+}
+.grid-list{
+  background-color: #32263e;
+
+}
+@media(max-width: 320px){
+  .card-driver{
+    /*max-height: 400px;*/
+    /*max-width: 130px;*/
+    /*min-width: 131px;*/
+    margin-left: -192px;
+    background-color: red;
+  }
+}
+@media(max-width: 375px){
+  .card-driver{
+    max-height: 400px;
+    max-width: 200px;
+    margin-left: -75px;
+  }
+}
+@media(max-width: 425px){
+  .card-driver{
+    max-height: 400px;
+    min-width: 230px;
+    margin-left: -75px;
+  }
+}
+@media(max-width: 768px){
+  .card-driver{
+    max-height: 800px;
+  }
+}
+@media(max-width: 957px){
+  .card-driver{
+    max-height: 850px;
+  }
+}
+@media(max-width: 1024px){
+  .card-driver{
+    height: 450px;
+  }
+}
+@media(max-width: 1440px){
+  .card-driver{
+    height: 500px;
+  }
+}
+@media(max-width: 2560px){
+  .card-driver{
+    height: 550px;
+  }
+}
+nav{
+  border-radius: 15px;
+}
+.border-white{
+  border-color: #ffffff;
+}
+.completed-task{
+  text-decoration: line-through white 4px;
+  font-weight: bold;
+}
+.waves-effect.waves-cyan .waves-ripple{
+  background-color: cyan;
+}
+.active{
+  border-radius: 15px;
+}
+.item-list{
+  font-weight: bold;
+}
+hr{
+  border-width: 2px;
+  border-color: red;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+.accent-color{
+  background-color: #06072e;
+}
+.accent-color-text{
+  color: #06072e;
+}
+.border-radius-custom{
+  border-radius: 15px;
+}
+.urls{
+  color: #ffffff;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.btn-floating:hover{
+  background-color: crimson;
+  color: black;
+}
+.responsive-img{
+  max-height: 250px;
+  min-height: 100px;
+}
+.driver-number{
+  font-size: 18px;
+}
+/* label color */
+.input-field label {
+  color: #fff;
+}

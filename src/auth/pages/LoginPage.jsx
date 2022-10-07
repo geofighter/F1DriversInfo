@@ -1,11 +1,26 @@
 import {useNavigate} from "react-router-dom";
+import {useContext} from "react";
+import { AuthContext } from "../context";
 
 export const LoginPage = () => {
 
+    const { login } = useContext( AuthContext );
     const navigate = useNavigate();
 
     const onLogin = () => {
-        navigate('/drivers', {
+
+        const lastPath = localStorage.getItem('lastPath');
+        let route = "";
+        if(lastPath){
+            route = lastPath;
+        }
+        else{
+            route = '/drivers'
+        }
+
+        login( 'Marcos Geo' );
+
+        navigate(route, {
             replace: true
         });
     }
@@ -16,7 +31,7 @@ export const LoginPage = () => {
             <hr/>
 
             <div className="card-panel">
-                <p>Hola, aqui va el formulario de autenticación</p>
+                <p>This is a simple app that shows general information of F1 drivers of the season <b>2022</b></p>
                 <div className="center">
                     <button
                         className="btn-floating pulse hoverable red white-text"

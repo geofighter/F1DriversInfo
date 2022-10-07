@@ -128,3 +128,7 @@ hr{
 .input-field label {
   color: #fff;
 }
+.icon-avatar-user{
+  position: relative;
+  top: -17px;
+}

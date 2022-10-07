@@ -1,9 +1,12 @@
 import {AppRouter} from "./router/AppRouter";
+import {AuthProvider} from "./auth";
 
 export const DriversApp = () => {
 
     return(
-       <AppRouter />
+        <AuthProvider>
+            <AppRouter />
+        </AuthProvider>
     )
 
 }
